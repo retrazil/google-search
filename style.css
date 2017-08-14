@@ -13,8 +13,12 @@ html,body {
     overflow: auto;
 }
 
-#top-left {
+#nav {
     background-color: #fafafa;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#top-left {
     margin-top: 17px;
     margin-left: 10px;
     float: left;
@@ -92,7 +96,7 @@ html,body {
     padding: 0 12px;
 }
 
-#clear {
+.clear {
     clear: both;
 }
 
