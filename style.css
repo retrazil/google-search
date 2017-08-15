@@ -203,6 +203,41 @@ a:hover {
     border: 1px dashed gray;
 }
 
+.single-result {
+    font-family: arial, sans-serif;
+    margin-bottom: 26px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.title-link {
+    font-weight: normal;
+    line-height: 1.2;
+    color: #1a0dab;
+}
+
+.title-link:hover {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.result-link {
+    font-size: 14px;
+    color: #006621;
+}
+
+.text-snippet {
+    font-size: small;
+    line-height: 1.4;
+    color: #545454;
+}
+
+.gray-it {
+    color: #808080;
+}
+
 .footer {   
     list-style-type: none; 
     box-sizing: border-box; 
