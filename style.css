@@ -191,14 +191,13 @@ a:hover {
     box-sizing: border-box;
     width: 632px;
     padding: 0 16px;
-    border: 3px solid gray;
+    margin-top: 8px;
     margin-left: 150px;
 }
 
 #results {
     box-sizing: border-box;
-    margin: 0 5px;
-    border: 1px dashed gray;
+    width: 600px;
 }
 
 .single-result {
@@ -207,6 +206,7 @@ a:hover {
 }
 
 .title {
+    text-align: left;
     font-size: 18px;
 }
 
@@ -234,6 +234,10 @@ a:hover {
 
 .gray-it {
     color: #808080;
+}
+
+b {
+    color: #6a6a6a;
 }
 
 .footer {   
