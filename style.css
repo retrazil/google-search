@@ -241,6 +241,36 @@ b {
     color: #6a6a6a;
 }
 
+#related {
+}
+
+#related-title {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.related-link {
+    display: block;
+    padding: 3px 32px 3px 0; 
+    color: #1a0dab;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.related-link b {
+    color: #1a0dab;
+}
+
+.related-link:hover {
+    text-decoration: underline;
+}
+
+.related-column {
+    list-style-type: none;
+    display: inline-block;
+}
+
 .footer {   
     list-style-type: none; 
     box-sizing: border-box; 
