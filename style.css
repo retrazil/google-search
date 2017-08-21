@@ -122,6 +122,11 @@ html,body {
     padding-top: 28px;
 }
 
+.upper-left-link {
+    padding: 0 8px;
+    margin: 0 8px;
+}
+
 #upper-right {
     display: inline-block;
     list-style-type: none;
