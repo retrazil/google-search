@@ -8,7 +8,6 @@ html,body {
     padding: 0;
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
     overflow: auto;
 }
 
@@ -46,9 +45,7 @@ body {
     padding: 12px;
     width: 632px;
     box-sizing: border-box;
-    font-family: arial, sans-serif;
-    font-size: 16px; 
-    font-weight: normal;
+    font: normal 16px arial, sans-serif; 
     color: #000;
     background-color: white; 
     border: .1px solid #D8D8D8; 
@@ -112,7 +109,6 @@ body {
 #upper-left {
     display: inline-block;
     list-style-type: none;
-    font-family: arial, sans-serif;
     font-size: 13px;    
 }
 
@@ -130,7 +126,6 @@ body {
     display: inline-block;
     list-style-type: none;
     font-size: 13px; 
-    font-family: arial, sans-serif;
     margin-left: 100px;
     float: right;
 }
@@ -162,7 +157,6 @@ body {
 }
 
 #all {
-    font-family: arial, sans-serif;
     font-weight: bold;
     margin-left: 150px;
     padding: 28px 16px 12px;
@@ -178,7 +172,6 @@ body {
 
 a {
     text-decoration: none; 
-    font-family: arial, sans-serif;
     color: #666;
 }
 
@@ -190,7 +183,6 @@ a:hover {
     margin-left: 150px;
     padding-left: 16px;
     line-height: 43px;
-    font-family: arial, sans-serif;
     font-size: small;
     color: #808080;
 }
