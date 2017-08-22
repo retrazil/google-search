@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0; 
-    /*     border: 1px dotted gray; */
 }
 
 html,body {
@@ -11,6 +10,10 @@ html,body {
     height: 100%;
     box-sizing: border-box;
     overflow: auto;
+}
+
+body {
+    font-family: arial, sans-serif;
 }
 
 #nav {
@@ -43,8 +46,9 @@ html,body {
     padding: 12px;
     width: 632px;
     box-sizing: border-box;
-    font-size: 16px; 
     font-family: arial, sans-serif;
+    font-size: 16px; 
+    font-weight: normal;
     color: #000;
     background-color: white; 
     border: .1px solid #D8D8D8; 
@@ -73,7 +77,6 @@ html,body {
     vertical-align: middle;
     height: 25px;
     width: 25px;
-    /* margin-top: 2.5px; */
     margin-right: 15px;
     margin-left: 10px;
     background: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
@@ -84,10 +87,8 @@ html,body {
 
 #sign-in {
     display: inline-block;
-    /*     vertical-align: middle; */
     font-weight: bold;
     font-size: 13px;
-    font-family: arial, sans-serif; 
     color: white; 
     background: #4285f4;
     line-height: 28px;
@@ -112,9 +113,7 @@ html,body {
     display: inline-block;
     list-style-type: none;
     font-family: arial, sans-serif;
-    font-size: 13px;
-    
-    /*     margin-left: 150px; */
+    font-size: 13px;    
 }
 
 #upper-left li {
@@ -141,6 +140,11 @@ html,body {
     padding-top: 28px;
 }
 
+#settings {
+    margin: 0 8px;
+    padding: 0 8px;
+}
+
 #tools {
     display: inline-block;
     box-sizing: border-box;
@@ -150,6 +154,7 @@ html,body {
 #tools a {
     border: 1px solid transparent;
     padding: 4px 15px;
+    margin-right: 3px;
 }
 
 #tools a:hover {
@@ -169,10 +174,6 @@ html,body {
 #all a {
     padding: 0;
     color: #4285f4;   
-}
-
-li a {
-    padding: 0 8px;
 }
 
 a {
@@ -208,7 +209,6 @@ a:hover {
 }
 
 .single-result {
-    font-family: arial, sans-serif;
     margin-bottom: 26px;
 }
 
@@ -253,7 +253,6 @@ b {
 }
 
 #related-title {
-    font-family: arial, sans-serif;
     font-size: 18px;
     padding-bottom: 20px;
 }
@@ -263,7 +262,6 @@ b {
     padding: 3px 32px 3px 0; 
     color: #1a0dab;
     font-size: 14px;
-    font-family: arial, sans-serif;
 }
 
 .related-link b {
@@ -296,7 +294,6 @@ td {
 
 .g5gle-link {
     font-size: small;
-    font-family: arial, sans-serif;
     color: #4285f4;
 }
 
@@ -308,43 +305,33 @@ td {
 #g5gle-1 {
     color: rgba(0,0,0,0.87);
     font-size: small;
-    font-family: arial, sans-serif;
+}
+
+#first-G, #red-o, .yellow-o, #last-gle {
+    display: block;
+    background-image: url('https://www.google.co.in/images/nav_logo242.png');
+    background-repeat: no-repeat; 
+    height: 40px;  
 }
 
 #first-G {
-    display: block;
-    background-image: url('https://www.google.co.in/images/nav_logo242.png');
-    background-repeat: no-repeat;
     background-position: -24px 0;
-    width: 28px;
-    height: 40px;
+    width: 28px; 
 }
 
 #red-o {
-    display: block;
-    background-image: url('https://www.google.co.in/images/nav_logo242.png');
-    background-repeat: no-repeat;
     background-position: -53px 0;
     width: 20px;
-    height: 40px;
 }
 
 .yellow-o {
-    display: block;
-    background-image: url('https://www.google.co.in/images/nav_logo242.png');
-    background-repeat: no-repeat;
     background-position: -74px 0;
     width: 20px;
-    height: 40px;
 }
 
 #last-gle {
-    display: block;
-    background-image: url('https://www.google.co.in/images/nav_logo242.png');
-    background-repeat: no-repeat;
     background-position: -96px 0;
     width: 71px;
-    height: 40px;
     text-align: right;
 }
 
@@ -371,13 +358,11 @@ td {
 }
 
 #gps-location {
-    font-family: arial, sans-serif;
     font-size: 13px;
     color: #aaa;
 }
 
 #location a {
-    font-family: arial, sans-serif;
     font-size: 13px;x
 }
 
